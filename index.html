@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my survey form</title>
+    <link rel="stylesheet" href="style.css">
+    <!--font session-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome To Jeyapandi's Survey Form</h1>
+        <p>!!!...kindly give your details to know about my buddy...!!!</p>
+    </header>
+    <hr id="first-line">
+    <div class="container">
+        <main>
+            <fieldset id="personal-details">
+                <legend><span class="material-symbols-outlined">
+                    badge
+                    </span> personal details</legend>
+                
+                
+                    <form   action="example.com">
+                    <div class="field">    
+                        <label for="name" ><span class="material-symbols-outlined">
+                            abc
+                            </span>Name<br>
+                            <span id="name-align">
+                                <select name="title" id="name-title">
+                                <option value="" selected>select</option>
+                                <option value="prof">Prof</option>
+                                <option value="dr">Dr</option>
+                                <option value="adv">Adv</option>
+                                <option value="mr">Mr</option>
+                                <option value="mrs">Mrs</option>
+                                <option value="ms">Ms</option>
+                                <option value="others">Others</option>
+                                </select>
+                                <input type="text" required pattern=[a-z,A-Z,.]{3,10} placeholder="Ex.Jeyapandi">
+                            </span>
+                        </label>
+                    </div>
+                    <div class="field">
+                        <label for="father-name"><span class="material-symbols-outlined">
+                            abc
+                            </span>Father Name<input type="text" required pattern=[a-z,A-Z,.]{3,10} placeholder="Ex.Jeyapandi"></label>
+                    </div>
+                    <div class="field">
+                        <label for="dob"><span class="material-symbols-outlined">
+                            calendar_month
+                            </span>Date Of Birth : <input type="date" required pattern=[0-9]]{} placeholder="Ex.40"></label>
+                    </div>
+                    <div class="field">
+                        <label for="gender"><span class="material-symbols-outlined">
+                            man
+                            </span>Gender :<br> <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</label></div>
+                    <div class="field">
+                        <label for="address"><span class="material-symbols-outlined">
+                            home
+                            </span>Enter Your address <textarea required name="address" id="address" cols="30" rows="3"></textarea></label>
+                    </div>
+                    <div class="field">
+                        <label for="phone-number"><span class="material-symbols-outlined">
+                        contacts
+                        </span>enter your phone number :<input type="tel" pattern="[0-9]{10,10}"></label>
+                        
+                    </div>
+                    <div class="field submit">
+                        <input type="submit" name="submit">
+                    </div>
+                    
+                </form>
+            </fieldset>
+        </main>
+    </div>
+    <hr>
+    <footer>
+        One Click Techy &copy;
+    </footer>
+</body>
+</html>
