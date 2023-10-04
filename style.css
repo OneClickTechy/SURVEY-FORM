@@ -57,7 +57,7 @@ textarea{
 .container{
     max-width: 60%;
     border: 10px 10px 10px 10px black;
-    margin: auto
+    margin: auto;
 }
 
 .material-symbols-outlined {
