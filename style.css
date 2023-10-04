@@ -6,22 +6,14 @@ body{
 
     
 }
-@media only screen (min-width:300px) and (max-width:600px) {
-    .container{
-        width: initial;
-        max-width: 100%;
-        border: 10px 10px 10px 10px black;
-        margin: o%;
-}
+
 #name-title{
     width: 30%;
 }
 main{
     margin: 10px 0; 
 }
-header{
-    
-}
+
 header> h1{
     text-align: center;
 
