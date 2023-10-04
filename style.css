@@ -6,6 +6,9 @@ body{
 
     
 }
+@media only screen (min-width:300px) and (max-width:600px) {
+    
+}
 #name-title{
     width: 30%;
 }
